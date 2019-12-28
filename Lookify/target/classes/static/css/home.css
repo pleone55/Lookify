@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+
+body {
+	background: #6495ED;
+}
+
+.home-main{
+			background: #6495ED;
+			color:#fff;
+			padding: 13%;
+			text-align: center;
+			margin-top: 80px;
+		}
+		.blinker{
+			animation: blinker 1.5s linear infinite;
+		}
+		@keyframes blinker {
+		  50% {
+			opacity: 0;
+		  }
+		}
+		.home-main button{
+			background: #fff;
+			color: #5812c5;
+			border-radius: 0;
+			font-weight: 700;
+			width: 16%;
+			height: 50px;
+			top: 4%;
+			margin-top: 3%;
+		}
+		.home-main button:hover{
+			transition: 1s ease;
+			color:#5812c5;
+			width: 19%;
+		}

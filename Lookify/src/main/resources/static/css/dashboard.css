@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+
+body{
+	background: #0aadb6;
+}
+
+.search{
+	border: solid black;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px;
+}
+
+table{
+	border: solid black;
+}
+
+.submit{
+	border: solid black;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #000000;
+	color: white;
+	background: #6495ED;
+}
+
+.custab{
+    border: 1px solid #000000;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #000000;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
+
+.container {
+	margin-left:140px;
+}
+
+.search-bar{
+	margin-top: 30px;
+	margin-left: 950px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: linear-gradient(to bottom right, white, #6495ED);
+}
+
+.container {
+	border: solid black;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+	width: 400px;
+	margin-top: 150px;
+	box-shadow: 2px 2px 2px;
+	background: white;
+}
+
+.dashboard {
+	margin-top: 50px;
+	color: blue;
+	margin-left: 1150px;
+}
